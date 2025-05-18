@@ -31,6 +31,6 @@ jobs:
         pip install -r requirements.txt
 
     - name: Deploy model to SageMaker
-        run: python deploy.py
+      run: python deploy.py
 
    
