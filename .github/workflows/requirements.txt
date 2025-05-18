@@ -5,3 +5,4 @@ joblib
 pytest
 boto3
 argparse
+seaborn
