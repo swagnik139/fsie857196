@@ -30,4 +30,7 @@ jobs:
         source venv/bin/activate
         pip install -r requirements.txt
 
+    - name: Deploy model to SageMaker
+        run: python deploy.py
+
    
