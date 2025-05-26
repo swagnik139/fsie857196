@@ -20,7 +20,6 @@ import os
 
 sagemaker_role = "arn:aws:iam::691879165105:role/service-role/AmazonSageMaker-ExecutionRole-20250517T013314"
 
-
 # In[153]:
 
 
