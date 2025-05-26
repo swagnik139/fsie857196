@@ -1,9 +1,0 @@
-sagemaker
-numpy
-pandas
-scikit-learn
-joblib
-pytest
-boto3
-argparse
-seaborn
