@@ -26,7 +26,8 @@ sagemaker_role = "arn:aws:iam::691879165105:role/CCL-SageMaker-Role"
 
 # --- Set up session and role ---
 sess = sagemaker.session.Session()
-pipeline_session = PipelineSession()
+bucket = "bucket-857196"  # your accessible bucket
+pipeline_session = PipelineSession(default_bucket=bucket)
 role = sagemaker_role
 
 
