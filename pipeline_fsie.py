@@ -18,7 +18,7 @@ import sagemaker
 import boto3
 import os
 
-sagemaker_role = "arn:aws:iam::691879165105:role/service-role/AmazonSageMaker-ExecutionRole-20250528T020139"
+sagemaker_role = "arn:aws:iam::691879165105:role/CCL-SageMaker-Role"
 
 
 # In[153]:
