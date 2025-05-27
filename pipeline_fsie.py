@@ -18,7 +18,7 @@ import sagemaker
 import boto3
 import os
 
-sagemaker_role = "arn:aws:iam::691879165105:role/service-role/AmazonSageMaker-ExecutionRole-20250517T013314"
+sagemaker_role = "arn:aws:iam::691879165105:role/service-role/AmazonSageMaker-ExecutionRole-20250528T020139"
 
 
 # In[153]:
@@ -234,7 +234,7 @@ condition_step = ConditionStep(
 
 # --- Pipeline Definition ---
 pipeline = Pipeline(
-    name="pipeline-857196",
+    name="pipeline-857196-1",
     parameters=[input_data_uri, model_approval_status, n_estimators],
     #steps=[processing_step, training_step, evaluation_step, register_step],
     steps=[processing_step, training_step, evaluation_step, condition_step],
